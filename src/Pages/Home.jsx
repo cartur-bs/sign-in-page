@@ -30,21 +30,21 @@ const Home = () => {
 
                 isVisible ? (
                     <div className='homePage'>
-                        <div>
+                        <div className='mainTxt'>
                             <h1>Mantenha-se atualizado!</h1>
                             <p>Join 60.000+ product managers receiving monthly updates on:</p>
 
                             <ul>
                                 <li>
-                                    <img src={iconList} alt="checked icon" />
+                                    <img src={iconList} alt="checked icon" className='listICon' />
                                     Product discovery and building what matters
                                 </li>
                                 <li>
-                                    <img src={iconList} alt="checked icon" />
+                                    <img src={iconList} alt="checked icon" className='listICon' />
                                     Measuring to ensure updates are a sucecess
                                 </li>
                                 <li>
-                                    <img src={iconList} alt="checked icon" />
+                                    <img src={iconList} alt="checked icon" className='listICon' />
                                     And much more!
                                 </li>
                             </ul>
@@ -60,12 +60,10 @@ const Home = () => {
 
 
 
-                        <div>
-                            <img src={illustrationDesktop} className='illustrationDesktop' alt="Illustration that shows a computer's screen with data and graphics symbolizing the reports you'd get from subscribing to our newsletter." />
-                        </div>
+                        <div className='illustrationDesktop'> </div>
 
 
-                    </div >) : (<div className="homePage">
+                    </div >) : (<div className="thankYouDiv">
 
 
 
@@ -73,7 +71,7 @@ const Home = () => {
                             <img src={successImg} alt="" />
                             <h1>Obrigado por se inscrever!</h1>
                             <p>Um email de confirmação foi enviado para {inputText}. Por favor, abra e clique no botão no corpo do email para confirmar sua inscrição.</p>
-                            <button onClick={finishSubscritpionProccess}> Dispensar mensagem </button>
+                            <button onClick={finishSubscritpionProccess} className='dismissBtn'> Dispensar mensagem </button>
                         </div>
                     </div>)}
 
