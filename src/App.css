@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&family=Roboto&display=swap');
+
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.App {
+  font-family: 'Roboto', 'sans-serif';
+
+}
+
+img {
+  height: 1rem;
+  width: 1rem;
+}
