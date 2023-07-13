@@ -104,7 +104,15 @@ input {
   @media (max-width:600px){
     .homePage,
     .thankYouDiv{
+        height: 45rem;
         width: 20rem;
+        font-size: 10px;
+    }
+    .illustrationDesktop{
+        height: 17rem;
     }
 
+    li{
+        font-size: 12px;
+    }
   }
