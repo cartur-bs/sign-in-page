@@ -16,7 +16,7 @@
     height: 30rem;
     width: 20rem;
     background-image: url('../assets/illustration-sign-up-desktop.svg');
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -57,30 +57,27 @@ input {
     font-size: 12px;
     cursor: pointer;
 }
-
-.none {
-    display: none;
+.enderecoEmail{
+    text-decoration: underline;
+    font-style: italic;
 }
 
-.block {
-    display: block;
-}
+@media (max-width:1550px) {
 
-@media (max-width:1550px){
     .homePage,
-    .thankYouDiv{
+    .thankYouDiv {
         margin: 5%;
         display: flex;
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
         width: 30rem;
         height: 55rem;
         padding: 0 0 5rem 0.5rem;
         overflow: hidden;
         align-items: center;
-        justify-content:space-between;
+        justify-content: space-between;
     }
 
-    .illustrationDesktop{
+    .illustrationDesktop {
         background-image: url(../assets/illustration-sign-up-mobile.svg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -88,31 +85,48 @@ input {
         height: 20rem;
         border-radius: 25px;
     }
-    .mainTxt{
+
+    .mainTxt {
         padding-left: 1rem;
     }
-    .thankYouDiv{
+
+    .thankYouDiv {
         flex-direction: unset;
         padding: 12rem 1.5rem;
     }
-    .dismissBtn{
-        width: 20rem;
-        margin: 10rem 4rem 0;
-    }
-  }
 
-  @media (max-width:600px){
+    .dismissBtn {
+        width: 20rem;
+        margin: 10rem 4rem ;
+    }
+}
+
+@media (max-width:600px) {
+
     .homePage,
-    .thankYouDiv{
+    .thankYouDiv {
         height: 45rem;
         width: 20rem;
         font-size: 10px;
     }
-    .illustrationDesktop{
+
+    .illustrationDesktop {
         height: 17rem;
     }
 
-    li{
+    li {
         font-size: 12px;
     }
-  }
+
+    .thankYouDiv h1 {
+        font-size: 25px;
+    }
+
+    .thankYouDiv p {
+        width: 250px;
+    }
+
+    .dismissBtn {
+        margin: 10rem 0 ;
+    }
+}
