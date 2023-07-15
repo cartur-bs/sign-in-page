@@ -57,7 +57,8 @@ input {
     font-size: 12px;
     cursor: pointer;
 }
-.enderecoEmail{
+
+.enderecoEmail {
     text-decoration: underline;
     font-style: italic;
 }
@@ -97,7 +98,7 @@ input {
 
     .dismissBtn {
         width: 20rem;
-        margin: 10rem 4rem ;
+        margin: 10rem 4rem;
     }
 }
 
@@ -108,6 +109,11 @@ input {
         height: 45rem;
         width: 20rem;
         font-size: 10px;
+        
+    }
+
+    .thankYouDiv {
+        padding: 3rem 0 2rem 0.5rem;
     }
 
     .illustrationDesktop {
@@ -123,10 +129,11 @@ input {
     }
 
     .thankYouDiv p {
-        width: 250px;
+        width: 200px;
     }
 
     .dismissBtn {
-        margin: 10rem 0 ;
+        margin: 10rem 1.5rem;
+        width: 16rem;
     }
 }
