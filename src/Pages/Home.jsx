@@ -12,7 +12,7 @@ const Home = () => {
 
 
     const handleEmail = () => {
-        inputText == '' ? (setemptyInputTxt('Insira um valor válido')) : (setIsVisible(false));
+        inputText == '' ? (setemptyInputTxt('Insira um valor válido!')) : (setIsVisible(false));
     }
 
     const finishSubscritpionProccess = () => {
@@ -44,8 +44,8 @@ const Home = () => {
                             </ul>
                             <form>
                                 <label>
-                                    <span>Email</span>
-                                    <span >{emptyInputTxt}</span>
+                                    <span>Email </span>
+                                    <span className='emptyInputTxt'>   {emptyInputTxt}</span>
                                     <input type='email' placeholder='email@company.com' className='inputText' required onChange={(e) => setInputText(e.target.value)} />
                                     <button onClick={handleEmail} type="submit"> Inscreva-se</button>
                                 </label>

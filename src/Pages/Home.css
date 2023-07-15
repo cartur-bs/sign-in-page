@@ -51,6 +51,11 @@ input {
     color: #000;
 }
 
+.emptyInputTxt{
+    color: red;
+    margin-left: 4rem;
+}
+
 .inputSubmit {
     width: 16rem;
     height: 2rem;
