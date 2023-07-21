@@ -1,0 +1,1 @@
+# sign_in_page é uma página simples que verifica o preenchimento do campo 'email' simulando o cadastro para receber notícias de uma news letter. Feito a fim de entender e praticar a inicialização e deploy de projetos usando Vite, onde ambos foram bem sucedidos.
